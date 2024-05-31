@@ -34,6 +34,19 @@
     <script src="js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img
+              src="img/logo.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section
       id="top"
       class="bg_dark pt-2 pb-2">
@@ -360,18 +373,114 @@
               <div
                 id="formmm"
                 class="center_hr bg-white p-4">
-                <h2>Need Any Help?</h2>
+                <h2 style="color: #dca73a">Book an Appointment</h2>
+                <h5 class="h55">Select Your House type</h5>
+                <div class="buttons-container">
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button house-type-btn">
+                    1 BHK
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button house-type-btn">
+                    2 BHK
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button house-type-btn">
+                    3 BHK
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button house-type-btn">
+                    4 BHK
+                  </button>
+                </div>
+                <h5 class="h55">Select Your Budget</h5>
+                <div class="buttons-container">
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button budget-btn">
+                    Under 5K
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button budget-btn">
+                    Under 10K
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button budget-btn">
+                    Under 20K
+                  </button>
+                  <button
+                    style="
+                      border: none;
+                      width: 120px;
+                      height: 50px;
+                      font-size: 10px;
+                      text-align: center;
+                    "
+                    class="button budget-btn">
+                    Under 25K
+                  </button>
+                </div>
                 <input
                   class="form-control mt-4"
                   placeholder="Name"
-                  type="text" />
+                  type="text"
+                  required />
                 <div class="center_hri row">
                   <div class="col-md-6">
                     <div class="center_hril">
                       <input
                         class="form-control mt-4"
                         placeholder="Phone"
-                        type="text" />
+                        type="tel"
+                        required />
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -379,7 +488,8 @@
                       <input
                         class="form-control mt-4"
                         placeholder="Email"
-                        type="text" />
+                        type="email"
+                        required />
                     </div>
                   </div>
                 </div>
